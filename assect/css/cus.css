@@ -1,0 +1,246 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.nav-link{
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color: #0bc6e3!important;
+}
+.active-link {
+    border-bottom: 3px solid;
+    transition: 0.2s linear;
+    border-color: #0bc6e3;
+    color: #0bc6e3!important;
+  }
+.navbar-control{
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 5;
+}
+.logo-home{
+    left: 300px;
+    top:100px;
+}
+.logo-buttom{
+    left: 580px;
+    top: 450px;
+}
+.img-fluid{
+    height: 220px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.game .card{
+    width: 350px;
+}
+.game .img-fluid:hover{
+    transform:scale(1.1);
+}
+.cham-font{
+    font-size: 100px;
+}
+.bg{
+    background-color: #d0a85c;
+}
+.text-chan{
+    color: #d0a85c;
+}
+.w-10{
+    width: 25px;
+}
+
+.path .card-img-top{
+    object-fit: cover;
+}
+.path .card{
+    transition: 0.5s;
+    width: 300px;
+}
+.path .card:hover{
+    transform:scale(1.1);
+}
+.dis .card:hover{
+    transform:scale(1.1);
+}
+.dis .card{
+    transition: 0.5s;
+    width: 450px;
+    height: 400px;
+}
+.discover{
+    height: 80vh;
+}
+.dis-img{
+    width: 800px;
+    transition: 0.5s;
+}
+.ani{
+    animation:move 2s linear 0s infinite alternate;
+}
+.footer-buttom{
+    left: 580px;
+    top: 570px;
+}
+.footer-alert{
+    top: 700px;
+    background-color: #061c25;
+}
+.footer{
+    height: 400px;
+}
+.bg-footer{
+    background-color: #292929;
+}
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(10px);
+    }
+}
+/*menu icon*/
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    /*background-color: #fff;*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-icon span {
+    width: 40px;
+    height: 4px;
+    background-color:white;
+    position: absolute;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.menu-icon span:nth-child(1) {
+    transform: translateY(-15px);
+    width: 25px;
+    left: 5px;
+}
+.menu-icon span:nth-child(2) {
+    transform: translateY(15px);
+    width: 15px;
+    left: 5px;
+}
+.menu-icon.show span:nth-child(3) {
+    transform: translateX(-60px);
+    opacity: 0;
+}
+.menu-icon.show span:nth-child(1) {
+    transform: translateY(0) rotate(45deg);
+    width: 40px;
+    transition: 0.125s;
+}
+.menu-icon.show span:nth-child(2) {
+    transform: translateY(0) rotate(315deg);
+    width: 40px;
+    transition: 0.25s;
+}
+
+.o-n:focus {
+    box-shadow: none;
+}
+
+@media screen and (max-width:860px) {
+    .logo-home{
+        left: 186px;
+        top: 77px;
+        width: 75%;
+    }
+    .logo-buttom{
+        top: 270px;
+        left: 336px;
+    }
+    .game .card{
+        width: 100%;
+        margin: auto;
+    }
+    .dno{
+        display: none;
+    }
+    .dis-img{
+        width: 500px;
+        margin-left: 100px;
+    }
+    .path .card{
+        transition: 0.5s;
+        margin: auto;
+    }
+    .discover{
+        height: 67vh;
+    }
+    .dis .card{
+        width: 100%;
+    }
+    .footer-buttom{
+        left: 330px;
+        top: 210px;
+    }
+    .footer{
+        height: 500px;
+    }
+}
+@media screen and (max-width:460px){
+    .logo-home{
+        left: 90px;
+        top: 15px;
+        width: 70%;
+    }
+    .logo-buttom{
+        top: 108px;
+        left: 122px;
+    }
+    .d-no{
+        display: none;
+    }
+    .cham-font{
+        font-size: 50px;
+    }
+    .slick-next{
+        display: none;
+    }
+    .slick-prev{
+        display: none;
+    }
+    .discover{
+        height: 70vh;
+    }
+    .dis-img{
+        width: 300px;
+        transition: 0.5s;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .dis .card{
+        transition: 0.5s;
+        width: 100%;
+        height: 400px;
+    }
+    .footer-buttom{
+        left: 126px;
+        top: 100px;
+    }
+    .footer{
+        height: 700px;
+    }
+    .slick-dots{
+        width: 90%;
+    }
+    .path .card{
+        transition: 0.5s;
+        width: 100%;
+    }
+}
