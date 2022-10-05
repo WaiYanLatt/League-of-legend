@@ -64,12 +64,6 @@
     transition: 0.5s;
     width: 300px;
 }
-.path .card:hover{
-    transform:scale(1.1);
-}
-.dis .card:hover{
-    transform:scale(1.1);
-}
 .dis .card{
     transition: 0.5s;
     width: 450px;
@@ -210,37 +204,30 @@
         font-size: 50px;
     }
     .slick-next{
-        display: none;
+        display: none!important;
     }
     .slick-prev{
-        display: none;
+        display: none!important;
     }
     .discover{
-        height: 70vh;
+        height: 60vh;
     }
     .dis-img{
-        width: 300px;
-        transition: 0.5s;
-        margin-left: 50px;
-        margin-top: 20px;
+       width: 300px;
+       margin-left: 10px;
     }
     .dis .card{
-        transition: 0.5s;
-        width: 100%;
-        height: 400px;
+        margin: auto;
     }
     .footer-buttom{
         left: 126px;
         top: 100px;
     }
     .footer{
-        height: 700px;
+        height: 500px;
     }
     .slick-dots{
         width: 90%;
     }
-    .path .card{
-        transition: 0.5s;
-        width: 100%;
-    }
+    
 }
