@@ -48,9 +48,6 @@
                 <a class="nav-link text-white fw-bold" href="#dis">DISCOVER</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="#esport">ESPORTS</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link text-white fw-bold" href="#more">MORE</a>
               </li>
             </ul>
@@ -69,15 +66,17 @@
              <div class="col px-0">
               <div class="position-relative">
                 <div class="">
-                  <video class="w-100" controls loop>
-                    <source  src="./assect/img/hero-0632cbf2872c5cc0dffa93d2ae8a29e8.webm" type="video/mp4" >
+                  <video class="w-100" autoplay muted play-inline loop>
+                    <source  src="./assect/img/hero-0632cbf2872c5cc0dffa93d2ae8a29e8.mp4" type="video/mp4" >
                 </video>
                 </div>
               <div class="position-absolute logo-home">
                   <img src="./assect/img/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png" alt="" class="w-75">
               </div>
               <div class="position-absolute logo-buttom">
-                <button class="btn btn-info fw-bold border-0 py-xl-3 px-xl-5 rounded-0">PLAY FOR FREE</button>
+                <div class="position-relative">
+                <button class="btn btn-info abc fw-bold border-0 py-xl-3 px-xl-5 rounded-0">PLAY FOR FREE</button>
+               </div>
               </div>
               </div>
              </div>
@@ -86,7 +85,7 @@
 
         <div class="container-fluid my-5 d-no">
           <div class="row justify-content-evenly">
-              <div class="col-lg-3 game d-no col-md-6 mb-md-2 bottom">
+              <div class="col-lg-3 game d-no col-md-6 mb-md-2">
                 <div class="card rounded-3 border-0 shadow" style="max-width: 540px;">
                   <div class="row g-0">
                     <div class="col-md-4">
@@ -102,7 +101,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 game d-no col-md-6 mb-md-2 bottom">
+              <div class="col-lg-3 game d-no col-md-6 mb-md-2">
                 <div class="card rounded-3 border-0 shadow" style="max-width: 540px;">
                   <div class="row g-0">
                     <div class="col-md-4">
@@ -118,7 +117,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 game col-md-6 mb-md-2 bottom">
+              <div class="col-lg-3 game col-md-6 mb-md-2">
                 <div class="card rounded-3 border-0 shadow" style="max-width: 540px;">
                   <div class="row g-0">
                     <div class="col-md-4">
@@ -134,7 +133,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 game col-md-6 mb-md-2 d-lg-none bottom">
+              <div class="col-lg-3 game col-md-6 mb-md-2 d-lg-none">
                 <div class="card rounded-3 border-0 shadow" style="max-width: 540px;">
                   <div class="row g-0">
                     <div class="col-md-4">
@@ -158,18 +157,22 @@
      <section id="cham">
      <div class="container my-5 ">
      <div class="row justify-content-between align-items-center">
-      <div class="col-lg-6 text-center left">
+      <div class="col-lg-6 text-center">
         <h4 class="fw-bold mb-0"><i>CHOOSE YOUR</i></h4>
         <h1 class="fw-bold cham-font"><i>CHAMPION</i></h1>
        <small class="text-dark"><i>Whether you like to dive straight into the fray, support your teammates,or something in between, there’s a spot for you on the Rift.</i></small>
         <div class="mt-3 bottom">
-          <button class="btn btn-warning border-0 bg text-white mb-2"><small>DISCOVER MORE CHAMPIONS</small></button>
-          <button class="btn btn-info text-white px-5 mb-2"><small>PLAY NOW</small></button>
+          <div class="position-relative">
+          <button class="btn btn-warning border-0 bg abc text-white radius1 mb-2"><small>DISCOVER MORE CHAMPIONS</small></button>
+          </div>
+          <div class="position-relative">
+          <button class="btn btn-info text-white px-5 abc radius1 mb-2"><small>PLAY NOW</small></button>
+          </div>      
         </div>
       </div>
-        <div class="col-lg-6 bottom">
+        <div class="col-lg-6">
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators bg-secondary rounded-pill"> 
+            <div class="carousel-indicators  rounded-pill"> 
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -180,7 +183,7 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./assect/img/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption  d-md-block">
+                <div class="carousel-caption  d-md-block d-no">
                   <i><img src="./assect/img/il_fullxfull.3134511657_1lra.webp" alt="" class="w-10"></i>
                   <h6 class="text-muted fw-bold"><i>ASSASSINS</i></h6>
                   <h5 class="text-dark fw-bold"><i>AKALI</i></h5>
@@ -189,7 +192,7 @@
               </div>
               <div class="carousel-item">
                 <img src="./assect/img/fighter-7a08920b696ecdb673edeeae1d3c616e.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption  d-md-block">
+                <div class="carousel-caption  d-md-block d-no">
                   <i><img src="./assect/img/8814bd6b458d8b4527ad942ad2e530bc.png" alt="" class="w-10"></i>
                   <h6 class="text-muted fw-bold"><i>FIGHTERS</i></h6>
                   <h5 class="text-dark fw-bold"><i>YASUO</i></h5>
@@ -198,7 +201,7 @@
               </div>
               <div class="carousel-item">
                 <img src="./assect/img/mage-3bfa6dfe620adafe5e539c2e470f4acc.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption  d-md-block">
+                <div class="carousel-caption  d-md-block d-no">
                   <i><img src="./assect/img/league_of_legends__mage_role_emblem_vector_by_jinxedmirage_d96igau-fullview.png" alt="" class="w-10"></i>
                   <h6 class="text-muted fw-bold"><i>MAGES</i></h6>
                   <h5 class="text-dark fw-bold"><i>LUX</i></h5>
@@ -207,7 +210,7 @@
               </div>
               <div class="carousel-item">
                 <img src="./assect/img/marksman-b339ed8fd7e04ff2c3fca022c5d299fb.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption  d-md-block">
+                <div class="carousel-caption  d-md-block d-no">
                   <i><img src="./assect/img/1_9TOaylkjbIJzEjq4AM02-g.png" alt="" class="w-10"></i>
                   <h6 class="text-muted fw-bold"><i>MARKSMEN</i></h6>
                   <h5 class="text-dark fw-bold"><i>JINX</i></h5>
@@ -216,7 +219,7 @@
               </div>
               <div class="carousel-item">
                 <img src="./assect/img/support-d63ae08baf517425864ddc020a5871d5.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption  d-md-block">
+                <div class="carousel-caption  d-md-block d-no">
                   <i><img src="./assect/img/this-is-a-support-icon-league-of-legends-support-11563500414izxs8mdbcx-removebg-preview.png" alt="" class="w-10"></i>
                   <h6 class="text-muted fw-bold"><i>SUPPORTS</i></h6>
                   <h5 class="text-dark fw-bold"><i>THRESH</i></h5>
@@ -225,7 +228,7 @@
               </div>
               <div class="carousel-item">
                 <img src="./assect/img/tank-1245abc326bd98c567ab22659719a1a3.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption  d-md-block">
+                <div class="carousel-caption  d-md-block d-no">
                   <i><img src="./assect/img/11321e114fc87fa4fedf2a5c13b217c6-removebg-preview.png" alt="" class="w-10"></i>
                   <h6 class="text-muted fw-bold"><i>TANKS</i></h6>
                   <h5 class="text-dark fw-bold"><i>LEONA</i></h5>
@@ -238,11 +241,11 @@
      </div>
      </div>
        
-     <div class="container my-3 bottom">
+     <div class="container my-3">
         <div class="row">
           <div class="hero">
                   <div class="card border-0 shadow mx-lg-3 mx-md-3">
-                          <video class="w-100 rounded-3" controls loop>
+                          <video class="w-100 rounded-3"  autoplay loop muted play-inline>
                             <source src="./assect/img/assassin-8bb741f0fe6d55c0844ede6e3fe1b5ad.webm">
                           </video>
                           <h5 class="fw-bold text-center">
@@ -250,7 +253,7 @@
                           </h5>
                     </div>
                     <div class="card border-0 shadow mx-lg-3 mx-md-3">
-                      <video class="w-100 rounded-3" controls loop>
+                      <video class="w-100 rounded-3"  autoplay loop muted play-inline>
                         <source src="./assect/img/fighter-56f0e81707c5104dd35ee7a2b1d8e72a.webm">
                       </video>
                       <h5 class="fw-bold text-center">
@@ -258,7 +261,7 @@
                       </h5>
                   </div>
                   <div class="card border-0 shadow mx-lg-3 mx-md-3">
-                    <video class="w-100 rounded-3" controls loop>
+                    <video class="w-100 rounded-3"  autoplay loop muted play-inline>
                       <source src="./assect/img/mage-8beae0975cae649908a0d539435306db.webm">
                     </video>
                     <h5 class="fw-bold text-center">
@@ -266,7 +269,7 @@
                     </h5>
                   </div>
                   <div class="card border-0 shadow mx-lg-3 mx-md-3">
-                    <video class="w-100 rounded-3" controls loop>
+                    <video class="w-100 rounded-3"  autoplay loop muted play-inline>
                       <source src="./assect/img/marksman-d7367883b0979249f9309c03efdd23d9.webm">
                     </video>
                     <h5 class="fw-bold text-center">
@@ -274,7 +277,7 @@
                     </h5>
               </div>
               <div class="card border-0 shadow mx-lg-3 mx-md-3">
-                <video class="w-100 rounded-3" controls loop>
+                <video class="w-100 rounded-3"  autoplay loop muted play-inline>
                   <source src="./assect/img/support-10b76f08757ee3ce7169c344108b457b.webm">
                 </video>
                 <h5 class="fw-bold text-center">
@@ -282,7 +285,7 @@
                 </h5>
             </div>
             <div class="card border-0 shadow mx-lg-3 mx-md-3">
-              <video class="w-100 rounded-3" controls loop>
+              <video class="w-100 rounded-3" autoplay loop muted play-inline>
                 <source src="./assect/img/tank-7bc533fcd17c3eca769764141020debb.webm">
               </video>
               <h5 class="fw-bold text-center">
@@ -319,7 +322,9 @@
       <h1 class="fw-bold cham-font"><i>STYLE</i></h1>
      <small class="text-dark"><i>Make it personal by changing up the look of your favorite champions with skins.</i></small>
       <div class="mt-3 bottom">
-        <button class="btn btn-info text-white px-5 mb-2"><small>PLAY NOW</small></button>
+        <div class="position-relative">
+        <button class="btn btn-info text-white px-5 abc radius1 mb-2"><small>PLAY NOW</small></button>
+        </div>
       </div>
     </div>
   </div>
@@ -339,7 +344,7 @@
            </div>
        </div>
        <div class="row ps-lg-5">
-           <div class="col-lg-4 bottom my-3 path col-md-6">
+           <div class="col-lg-4  my-3 path col-md-6">
             <div class="card border-0 shadow">
               <img src="./assect/img/LOL_PROMOART_13 (1).jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -349,7 +354,7 @@
               </div>
             </div>
            </div>
-           <div class="col-lg-4 bottom my-3 path col-md-6">
+           <div class="col-lg-4  my-3 path col-md-6">
             <div class="card border-0 shadow">
               <img src="./assect/img/2020_Banner.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -359,7 +364,7 @@
               </div>
             </div>
            </div>
-           <div class="col-lg-4 bottom my-3 path col-md-6">
+           <div class="col-lg-4  my-3 path col-md-6">
             <div class="card border-0 shadow">
               <img src="./assect/img/082322_Patch_12_16_Notes_Banner.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -369,7 +374,7 @@
               </div>
             </div>
            </div>
-           <div class="col-lg-4 bottom my-3 path col-md-6">
+           <div class="col-lg-4  my-3 path col-md-6">
             <div class="card border-0 shadow">
               <img src="./assect/img/LOL_PROMOART_10_banner.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -379,7 +384,7 @@
               </div>
             </div>
            </div>
-           <div class="col-lg-4 bottom my-3 path col-md-6">
+           <div class="col-lg-4  my-3 path col-md-6">
             <div class="card border-0 shadow">
               <img src="./assect/img/072622_LoL_Patch_12_14_Notes_Banner_v2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -389,7 +394,7 @@
               </div>
             </div>
            </div>
-           <div class="col-lg-4 bottom my-3 path col-md-6">
+           <div class="col-lg-4  my-3 path col-md-6">
             <div class="card border-0 shadow">
               <img src="./assect/img/Star-Guardian-Key-Visual-1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -400,7 +405,9 @@
             </div>
            </div>
            <div class="text-center mb-5 bottom">
-                <button class="btn btn-info px-5 text-white">LOAD MORE <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="position-relative">
+                <button class="btn btn-info px-5 text-white abc radius1">LOAD MORE <i class="fa-solid fa-arrow-right"></i></button>
+             </div>
            </div>
        </div>
     </div>
@@ -411,16 +418,20 @@
 <section id="dis">
      <div class="container-fluid bg-dark discover ">
          <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6 bottom">
+            <div class="col-lg-6 ">
                <img src="./assect/img/player-guide-map-1440-32575baa2f8d2b2bfd5cfd07e11d1361.png" alt="" class="dis-img ani">
             </div>
-            <div class="col-lg-6 bottom text-center">
+            <div class="col-lg-6  text-center">
               <h4 class="fw-bold mb-0 text-white"><i>START YOUR</i></h4>
               <h1 class="fw-bold cham-font text-white"><i>LEGEND</i></h1>
              <small class="text-white"><i>New to League?<br> Get a rundown on the basics for the most popular game mode.</i></small>
-              <div class="mt-3 bottom">
-                 <button class="btn btn-warning border-0 bg mb-2"><small>DISCOVER MORE CHAMPIONS</small></button>
-                <button class="btn btn-info  px-5 mb-2"><small>PLAY FOR FREE</small></button>
+              <div class="mt-3 bottom d-lg-flex justify-content-lg-center">
+                <div class="position-relative">
+                 <button class="btn btn-warning border-0 bg abc mb-2 radius1 mx-lg-3"><small>DISCOVER MORE CHAMPIONS</small></button>
+                </div>
+                <div class="position-relative">
+                 <button class="btn btn-info border-0 abc  mb-2 radius1"><small>PLAY FOR FREE</small></button>
+                 </div>
               </div>
             </div>
          </div>
@@ -433,17 +444,20 @@
             <h1 class="fw-bold cham-font"><i>DISCOVER</i></h1>
           </div>
          </div>
-         <div class="row justify-content-evenly">
-             <div class="col-lg-4 dis mt-3 col-md-6 bottom">
-              <div class="card border-3 shadow">
-                <img src="./assect/img/worlds_2022_capsule_opt.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                   <h3 class="fw-bold"><i>YOUR GUIDE TO LOL<br> ESPORTS DROPS AT WORLDS 2022</i></h3>
-                </div>
+         <div class="row justify-content-evenly ">
+          <div class="col-lg-4 dis me-lg-5 mt-3 col-md-6 bottom position-relative d-block">
+            <div class="border border-2 d-block m-2 radius p-6 position-absolute"></div>
+            <div class="card border-0 position-relative">
+              <img src="./assect/img/worlds_2022_capsule_opt.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                 <h3 class="fw-bold"><i>YOUR GUIDE TO LOL
+                  ESPORTS DROPS<br> AT WORLDS 2022 </i></h3>
               </div>
-             </div> 
-             <div class="col-lg-4 dis me-lg-5 mt-3 col-md-6 bottom">
-              <div class="card border-3 shadow">
+            </div>
+           </div>
+             <div class="col-lg-4 dis me-lg-5 mt-3 col-md-6 bottom position-relative d-block">
+              <div class="border border-2 d-block m-2 radius p-6 position-absolute"></div>
+              <div class="card border-0 position-relative">
                 <img src="./assect/img/00_Header_SG2.jpg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                    <h3 class="fw-bold"><i>PREVIOUSLY ON STAR<br> GUARDIAN </i></h3>
@@ -454,93 +468,18 @@
      </div>
 </section>
 
-
-  <!-- esports -->
-
-<section id="esport">
-  <div class="container">
-    <div class="row">
-        <div class="col bottom">
-         <div class="alert alert-dark bg-dark" role="alert">
-           <h3 class="text-white"><i>ESPORTS</i></h3>
-         </div>            
-        </div>
-    </div>
- </div>
-  
- <div class="container">
-  <div class="row ps-lg-5">
-    <div class="col-lg-4 my-3 path col-md-6 bottom">
-     <div class="card border-0 shadow">
-       <div class="card-body">
-              <iframe class="w-100 rounded-3" src="https://www.youtube.com/embed/-WMII5YD9RM?start=900" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <P class="fw-bold text-info">ESPORTS</P>
-         <small class="fw-bold">T1 vs GEN Game 1 LCK SUMMER 2022 - SKT T1 vs GENG GAME 1 LCK SUMMER 2022</small>
-       </div>
-     </div>
-    </div>
-    <div class="col-lg-4 my-3 path col-md-6 bottom">
-     <div class="card border-0 shadow">
-       <div class="card-body">
-              <iframe class="w-100 rounded-3" src="https://www.youtube.com/embed/GQLjPRCoJUY?start=900" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <P class="fw-bold text-info">ESPORTS</P>
-        <small class="fw-bold">T1 vs GEN Game 2 LCK SUMMER 2022 - SKT T1 vs GENG GAME 1 LCK SUMMER 2022</small>
-       </div>
-     </div>
-    </div>
-    <div class="col-lg-4 my-3 path col-md-6 bottom">
-     <div class="card border-0 shadow">
-       <div class="card-body">
-              <iframe class="w-100 rounded-3" src="https://www.youtube.com/embed/q4IS2IyPMDY?start=900" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <P class="fw-bold text-info">ESPORTS</P>
-        <small class="fw-bold">THE GRAND FINALS START HERE! | GEN vs T1 Game 1 FULL GAME LCK FINALS Playoffs 2022</small>
-       </div>
-     </div>
-    </div>
-    <div class="col-lg-4 my-3 path col-md-6 bottom">
-     <div class="card border-0 shadow">
-       <div class="card-body">
-              <iframe class="w-100 rounded-3" src="https://www.youtube.com/embed/ChBTWF6yzs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <P class="fw-bold text-info">ESPORTS</P>
-        <small class="fw-bold">GEN vs T1 Game 2 LCK FINAL SUMMER PLAYOFFS 2022 - GEN G vs SKT T1 GAME 2 LCK FINAL SUMMER PLAYOFFS</small>
-       </div>
-     </div>
-    </div>
-    <div class="col-lg-4 my-3 path col-md-6 bottom">
-     <div class="card border-0 shadow">
-       <div class="card-body">
-      <iframe class="w-100 rounded-3" src="https://www.youtube.com/embed/mBhkEtdfV7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <P class="fw-bold text-info">ESPORTS</P>
-        <small class="fw-bold">BRO vs T1 Game 2 LCK SUMMER 2022 - FREDIT BRION vs SKT T1 GAME 2 LCK SUMMER 2022</small>
-       </div>
-     </div>
-    </div>
-    <div class="col-lg-4 my-3 path col-md-6 bottom">
-     <div class="card border-0 shadow">
-       <div class="card-body">
-      <iframe class="w-100 rounded-3" src="https://www.youtube.com/embed/HcG5CPuKCdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <P class="fw-bold text-info">ESPORTS</P>
-        <small class="fw-bold">DRX vs T1 Game 1 LCK SUMMER 2022 - DRAGONX vs SKT T1 GAME 1 LCK SUMMER 2022</small>
-       </div>
-     </div>
-    </div>
-    <div class="text-center mb-5 button">
-         <button class="btn btn-info px-5 text-white">VIEW MORE <i class="fa-solid fa-arrow-right"></i></button>
-    </div>
-</div>
- </div>
-</section>
-
  <!-- more -->
 
  <section id="more">
  <div class="container-fluid px-0 mt-3">
   <div class="position-relative">
-    <video class="w-100" controls loop>
+    <video class="w-100" autoplay muted play-inline  loop>
       <source  src="./assect/img/lv_0_20220929190013.mp4" type="video/mp4" >
   </video>
    <div class="position-absolute footer-buttom">
-    <button class="btn btn-info fw-bold border-0 py-xl-3 px-xl-5 rounded-0">PLAY FOR FREE</button>
+    <div class="position-relative">
+    <button class="btn btn-info fw-bold border-0 py-xl-3 px-xl-5 abc rounded-0">PLAY FOR FREE</button>
+    </div>
    </div>
    <div class="alert alert-primary position-absolute w-100 d-no dno footer-alert rounded-0 border-0" role="alert">
     <div class="d-flex align-items-center justify-content-evenly">
@@ -555,34 +494,34 @@
 
  <div class="container-fluid px-0 bg-dark footer">
   <div class="alert alert-dark bg-footer rounded-0 border-0" role="alert">
-     <div class="text-center">
-      <button class="btn btn-dark bg-footer border-0 fw-bold bottom"><i>ABOUT LEAGUE OF LEGENDS</i></button>
-      <button class="btn btn-dark bg-footer border-0 fw-bold bottom"><i>HELP US IMPROVE</i></button>
-      <button class="btn btn-dark bg-footer border-0 fw-bold bottom"><i>SERVER STATUS</i></button>
-      <button class="btn btn-dark bg-footer border-0 fw-bold bottom"><i>SUPPORT</i></button>
-      <button class="btn btn-dark bg-footer border-0 fw-bold bottom">ESPORTS PRO SITE</button>
-      <button class="btn btn-dark bg-footer border-0 fw-bold bottom">DOWNLOAD RIOT MOBILE COMPANION APP</button>
+     <div class="text-center d-flex flex-column flex-lg-row flex-md- justify-content-sm-center">
+      <button class="btn btn-dark bg-footer border-0 fw-bold "><i>ABOUT LEAGUE OF LEGENDS</i></button>
+      <button class="btn btn-dark bg-footer border-0 fw-bold "><i>HELP US IMPROVE</i></button>
+      <button class="btn btn-dark bg-footer border-0 fw-bold "><i>SERVER STATUS</i></button>
+      <button class="btn btn-dark bg-footer border-0 fw-bold "><i>SUPPORT</i></button>
+      <button class="btn btn-dark bg-footer border-0 fw-bold ">ESPORTS PRO SITE</button>
+      <button class="btn btn-dark bg-footer border-0 fw-bold ">DOWNLOAD RIOT MOBILE<br> COMPANION APP</button>
      </div>
   </div>
   <div class="text-center">
-    <button class="btn btn-dark"><i class="fa-brands bottom fa-youtube"></i></button>
-    <button class="btn btn-dark"><i class="fa-brands bottom fa-twitter"></i></button>
-    <button class="btn btn-dark"><i class="fa-brands bottom fa-facebook"></i></button>
-    <button class="btn btn-dark"><i class="fa-brands bottom fa-instagram"></i></button>
-    <button class="btn btn-dark"><i class="fa-brands bottom fa-discord"></i></button>
+    <button class="btn btn-dark"><i class="fa-brands  fa-youtube"></i></button>
+    <button class="btn btn-dark"><i class="fa-brands  fa-twitter"></i></button>
+    <button class="btn btn-dark"><i class="fa-brands  fa-facebook"></i></button>
+    <button class="btn btn-dark"><i class="fa-brands  fa-instagram"></i></button>
+    <button class="btn btn-dark"><i class="fa-brands  fa-discord"></i></button>
    </div>
-   <div class="text-center mt-3 bottom">
+   <div class="text-center mt-3 ">
       <img src="./assect/img/Riot_Games-Logo.wine.png" alt="" class="logo">
       <p><small class="text-muted"><i>TM &copy 2022 Riot Games,Inc.League of legends and all related logos,characters,name and distinctive<br> likenesses thereof are exclusive property of Riot Games, Inc. All Rights Reserved.</i></small></p>
    </div>
-   <div class="text-center d-no">
-    <button class="btn btn-dark  border-0 bottom fw-bold"><i>PRIVACY NOTICE</i></button>
-    <button class="btn btn-dark  border-0 bottom fw-bold"><i>TERMS OF SERVICE</i></button>
-    <button class="btn btn-dark  border-0 bottom fw-bold"><i>COOKIE POLICY</i></button>
-    <button class="btn btn-dark  border-0 bottom fw-bold"><i>COMPANY INFORMATION</i></button>
-    <button class="btn btn-dark  border-0 bottom fw-bold"><i>COOKIE PREFERENCES</i></button>
+   <div class="text-center d-flex flex-column flex-lg-row flex-md-row justify-content-lg-center">
+    <button class="btn btn-dark  border-0  fw-bold"><i>PRIVACY NOTICE</i></button>
+    <button class="btn btn-dark  border-0  fw-bold"><i>TERMS OF SERVICE</i></button>
+    <button class="btn btn-dark  border-0  fw-bold"><i>COOKIE POLICY</i></button>
+    <button class="btn btn-dark  border-0  fw-bold"><i>COMPANY INFORMATION</i></button>
+    <button class="btn btn-dark  border-0  fw-bold"><i>COOKIE PREFERENCES</i></button>
    </div>
-   <div class="text-center bottom">
+   <div class="text-center ">
       <button class="btn btn-secondary border-0"><img src="./assect/img/pegi-eu.png" alt=""></button>
       <button class="btn btn-secondary border-0"><img src="./assect/img/usk-12.png" alt=""></button>
    </div>
@@ -620,7 +559,7 @@ window.addEventListener("scroll", scrollActive);
 
 ScrollReveal().reveal('.bottom',{
         origin: 'bottom',
-        distance: '300px',
+        distance: '50px',
         duration: 2000,
         reset: true,
         interval: 200,
