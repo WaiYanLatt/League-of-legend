@@ -204,6 +204,9 @@
     .footer{
         height: 500px;
     }
+    .p-6{
+        padding: 250px 140px 100px 174px;
+    }
 }
 @media screen and (max-width:460px){
     .logo-home{
