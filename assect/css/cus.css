@@ -1,6 +1,11 @@
 *{
     font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
 }
+body {
+    background:  #031321;
+  }
 .logo{
     width: 100px;
     height: 50px;
@@ -16,6 +21,7 @@
     transition: 0.2s linear;
     border-color: #0bc6e3;
     color: #0bc6e3!important;
+    text-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
   }
 .navbar-control{
     width: 100%;
@@ -23,6 +29,7 @@
     right: 0;
     top: 0;
     position: fixed;
+    border-bottom: 1px solid white;
     z-index: 5;
 }
 .logo-home{
@@ -46,9 +53,14 @@
 }
 .cham-font{
     font-size: 100px;
+    color: #fff;
+    text-shadow: 0 0 10px #00FF66,0 0 40px #00FF66,0 0 80px #00FF66;
 }
 .bg{
     background-color: #d0a85c;
+}
+.bg1{
+    background-color: transparent;
 }
 .text-chan{
     color: #d0a85c;
@@ -165,8 +177,8 @@
 .o-n:focus {
     box-shadow: none;
 }
-.bg-dark{
-    background-color: #000;
+.bg-dark1{
+    background-color: #031321;
 }
 .loading{
     width: 100%;
@@ -242,8 +254,8 @@
       margin-top: 0;
     }
   }
-.btn-info:hover{
-    color: #255784;
+.btn-info{
+    color: #fff;
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
 } 
