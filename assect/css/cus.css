@@ -312,6 +312,9 @@ body {
     top: 15px;
     width: 70%;
   }
+  .menu-icon{
+    font-size: 0.8rem;
+  }
   .logo-buttom {
     top: 108px;
     left: 122px;
